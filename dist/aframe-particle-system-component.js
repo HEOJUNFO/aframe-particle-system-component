@@ -2280,8 +2280,8 @@
 	    options = utils.ensureTypedArg( options, types.OBJECT, {} );
 	    options.texture = utils.ensureTypedArg( options.texture, types.OBJECT, {} );
 
-	    // Assign a UUID to this instance
-	    this.uuid = THREE.Math.generateUUID();
+	    // Assign a  to this instance
+	    this.uuid = THREE.MathUtils.generateUUID();
 
 	    // If no `deltaTime` value is passed to the `SPE.Group.tick` function,
 	    // the value of this property will be used to advance the simulation.
